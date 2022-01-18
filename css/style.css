@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 35px 0;
+    font-family: 'Luxurious Roman', cursive;
+    
+}
+img{
+    border-radius: 10px;
+}
+article{
+    max-width: 80%;
+    margin: 15px auto;
+}
+.preview{
+    float: right;
+    width: 50%;
+     
+}
+.preview ul li{
+    display: inline;
+    font-size: 15px ;
+    padding-right: 3px;
+}
+h2{
+    font-size: 70px;
+    line-height: 58px;
+    letter-spacing: -2px;
+    padding: 5px 0 15px 2px;
+}
+p{
+    font-size:  20px;
+    margin-bottom: 8px;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 135, 135);
+}
+.continue{
+    float: right;
+}
+a:hover{
+    color: rgb(109, 235, 140);
+
+}
+.after-add::after{
+    content: "\\";
+    padding-left: 6px;
+}
+
+
